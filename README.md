@@ -19,7 +19,7 @@ This is a weather forecast web application built using React and React Query It 
 - React (via Create React App)
 - React Query
 - Axios
-- CSS (with gradients, glassmorphism)
+- CSS
 - API: [WeatherAPI.com](https://www.weatherapi.com/)
 
 ---
