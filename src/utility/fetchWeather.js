@@ -2,7 +2,7 @@ import axios from "axios";
 
 const fetchWeather = async (searchCity) => {
   const res = await axios.get(
-    `http://api.weatherapi.com/v1/forecast.json?key=aea41ab16cd443f8b1e52028252705&q=${searchCity}&days=5`
+    `https://api.weatherapi.com/v1/forecast.json?key=aea41ab16cd443f8b1e52028252705&q=${searchCity}&days=5`
   );
   console.log("every 30 seconds");
   const data = res.data;
